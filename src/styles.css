@@ -1,0 +1,88 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  padding: 5px;
+  background: white;
+}
+.alert {
+  padding: 1em;
+}
+.Quiz {
+  background-color: skyblue;
+  min-height: 100vh;
+  font-family: "sans-serif";
+}
+.Question__seq {
+  font-size: 1.2em;
+}
+.Question__text {
+  margin-top: 0.5em;
+  font-size: 1.5em;
+  min-height: 10em;
+}
+.Question__text img {
+  display: block;
+}
+.Question__image {
+  min-height: 100px;
+  min-width: 200px;
+  max-width: 600px;
+}
+.Question__difficulty_box {
+  display: inline-block;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+.Question__answer {
+  font-size: 2em;
+  background-color: black;
+}
+.Quiz__buttons {
+  text-align: right;
+}
+.Quiz__buttons button {
+  margin-top: 0.5em;
+  font-size: 1.3em;
+}
+.Clock {
+  font-size: 2em;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.QuestionList {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  font-size: 1.2em;
+  padding: 0.5em;
+  overflow: scroll;
+}
+.QuestionList__item {
+  padding: 4px;
+  margin: 4px;
+  border: 2px solid darkblue;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Quiz__main {
+  width: 80%;
+  padding-bottom: 2em;
+  margin: auto;
+}
+.difficulty_item {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  border: 1px solid;
+  margin-left: 3px;
+  border-color: black;
+  cursor: pointer;
+}
